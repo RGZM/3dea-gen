@@ -8,7 +8,8 @@
 ## output is a reduced and smoothed curve of the cutting edge, which is required for the definition of the profile lines
 ## output a csv file with the parameters of the cutting edge curve and the reference curve modified from it
 
-import gom, os, re, datetime
+import gom, os, re, datetime      Cancel changes
+
 
 RESULT=gom.script.sys.execute_user_defined_dialog (content='<dialog>' \
 ' <title>Select Input Folder</title>' \
