@@ -12,6 +12,18 @@ Examples of data can be found here .....
 
 Detailed explanation of the methods used in the scripts are documented here.....
 
+## python scripts
+
+### reference curve
+
 gom2016_EAP-1_reference_curve.py 
 
--create a reference curve
+create a reference curve
+
+### create section
+gom03_sections_SEC_NUM.py
+gom03_sections_SEC_DIST.py
+
+there are two approaches
+- define the distance between the cross-sections
+- define the number of cross-sections on the reference curve
