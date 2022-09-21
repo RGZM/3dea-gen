@@ -21,9 +21,10 @@ gom2016_EAP-1_reference_curve.py
 create a reference curve
 
 ### create section
-gom03_sections_SEC_NUM.py
-gom03_sections_SEC_DIST.py
+
 
 there are two approaches
 - define the distance between the cross-sections
+  - gom2016_EAP_2_sections_SEC_NUM
 - define the number of cross-sections on the reference curve
+-   - later.....
