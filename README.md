@@ -8,23 +8,31 @@ to create defined sections on a 3d mesh and constructs angels on the sections
 
 usefull if you have a lot of cutting edges to analysing
 
+
+## data
+
+To use the scripts you need 3d model in stl format and a digitized cutting edge on the 3d model in iges format.
 Examples of data can be found here .....
+
+## process and methods
 
 Detailed explanation of the methods used in the scripts are documented here.....
 
+
 ## python scripts
+
+For the naming of the data specifications have been made, which are defined in the scripts by "regular expressions" (regex). These defaults can be adjusted. The variables for this are defined in the scripts with "patter_". 
 
 ### reference curve
 
-gom2016_EAP-1_reference_curve.py 
+**gom2016_EAP-1_reference_curve.py**
 
 create a reference curve
 
 ### create section
 
-
 there are two approaches
 - define the distance between the cross-sections
-  - gom2016_EAP_2_sections_SEC_NUM
+  - **gom2016_EAP_2_sections_SEC_NUM.py**
 - define the number of cross-sections on the reference curve
 -   - later.....
