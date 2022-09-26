@@ -1,3 +1,5 @@
+README.md
+
 # EAP
 
 The scripts provided here are used to automatically create cross-sections on a 3D model and a previously manually defined curve (e.g. cutting edge). Furthermore, angles with different approaches are automatically calculated on the cross-sections, which allow an analysis of the sharpness of the edge. The results are csv files for each profile containing the angles of the different approaches.
