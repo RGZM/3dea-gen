@@ -1,14 +1,21 @@
 ## -*- coding: utf-8 -*-
 
+## gom inspect professional 2016
+## Anja Cramer, RGZM/WissIT, März 2019
+
 ## Skript to reduce and smooth the curve who represent den edge
-## Anja Cramer, RGZM/WissIT, March 2019
-## import 3d mesh of Keilmesser in *.stl file format
-## import digitised curve in *.iges file format
-## output is a reduced and smoothed curve of the cutting edge, which is required for the definition of the profile lines
-## output a csv file with the parameters of the cutting edge curve and the reference curve modified from it
 
-import gom, os, re, datetime 
+## settings
+### input folder
 
+## input
+### digitised curve of the cutting edge in *.iges file format
+
+## outputs 
+### a reduced and smoothed curve of the cutting edge, which is required for the definition of the profile lines
+### output a csv file with the parameters of the cutting edge curve and the reference curve modified from it
+
+import gom, os, re, datetime
 
 RESULT=gom.script.sys.execute_user_defined_dialog (content='<dialog>' \
 ' <title>Select Input Folder</title>' \
@@ -18,13 +25,13 @@ RESULT=gom.script.sys.execute_user_defined_dialog (content='<dialog>' \
 ' <embedding></embedding>' \
 ' <sizemode>fixed</sizemode>' \
 ' <size width="570" height="154"/>' \
-' <content columns="1" rows="1">' \
-'  <widget columnspan="1" rowspan="1" type="input::file" row="0" column="0">' \
+' <content rows="1" columns="1">' \
+'  <widget row="0" rowspan="1" type="input::file" column="0" columnspan="1">' \
 '   <name>file</name>' \
 '   <tooltip>select input folder</tooltip>' \
 '   <type>directory</type>' \
 '   <title>Choose File</title>' \
-'   <default>E:/RGZM_Projekte/Spurenlabor/TraCEr_EAP_LisaSchunk/tests/files_for_paper</default>' \
+'   <default></default>' \
 '   <limited>false</limited>' \
 '   <file_types/>' \
 '   <file_types_default></file_types_default>' \
@@ -35,13 +42,11 @@ RESULT=gom.script.sys.execute_user_defined_dialog (content='<dialog>' \
 ## variable
 input_pfad = RESULT.file
 
-
 ## csv file 
-
 ## timestamp for filename
 now = datetime.datetime.now()
 now_string = str(now.year)+str(now.month)+str(now.day)+'_'+str(now.hour)+''+str(now.minute)
-myfile1 = open(input_pfad + "/"+"Infos_Edges_all_" + now_string + ".csv", "w")
+myfile1 = open(input_pfad + "/"+"Info_EAP_1_reference_curve_" + now_string + ".csv", "w")
 myfile1.write ("3d-mesh,curve,length of curve [mm],number 3d-points of curve, x start point,y start point,z start point,x end point, y end point,z end point"+"\n")
 			
 ########################## search of STL- und IGES- files  ####################	
