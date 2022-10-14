@@ -1,8 +1,10 @@
 ## -*- coding: utf-8 -*-
 
+## gom inspect professional 2016
+## Anja Cramer, RGZM/WissIT, März 2019
+
 ## Script for generating cross-sections orthogonal to one or more reference curves (e.g. derived from a defined cutting edge) on an imported 3D model (e.g. Keilmesser)
 ## Several times applicable with different distances and radii, depending on the setting, unique folders are created with set parameters in the name (e.g. SEC-NUM-5_SEC-R-20) 
-## Anja Cramer, RGZM/WissIT, März 2019
 
 ## settings
 ### input folder
