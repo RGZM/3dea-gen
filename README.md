@@ -6,7 +6,7 @@ The scripts provided here are used to automatically create cross-sections on a 3
 
 to create defined sections on a 3d mesh and constructs angels on the sections
 
-usefull if you have a lot of cutting edges to analysing
+usefull if you have a lot of cutting edges to analyse
 
 ## software
 
@@ -14,17 +14,16 @@ python scripts for the **gom insprect pro 2016** software
 
 ## data
 
-To use the scripts you need 3d model in stl format and a digitized cutting edge on the 3d model in iges format.
+To use the scripts you need the 3d model in stl format and a digitized cutting edge on the 3d model in iges format.
 Examples of data can be found here .....
 
 ## process and methods
 
 Detailed explanation of the methods used in the scripts are documented here.....
 
-
 ## python scripts
 
-For the naming of the data specifications have been made, which are defined in the scripts by "regular expressions" (regex). These defaults can be adjusted. The variables for this are defined in the scripts with "patter_". 
+For the naming of the data specifications have been made, which are defined in the scripts by "regular expressions" (regex). These defaults can be adjusted. The variables for this are defined in the scripts with "pattern_". 
 
 ### reference curve
 
