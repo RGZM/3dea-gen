@@ -1,10 +1,8 @@
 ## -*- coding: utf-8 -*-
 
-## gom inspect professional 2016
-## Anja Cramer, RGZM/WissIT, März 2019
-
 ## Script for generating cross-sections orthogonal to one or more reference curves (e.g. derived from a defined cutting edge) on an imported 3D model (e.g. Keilmesser)
 ## Several times applicable with different distances and radii, depending on the setting, unique folders are created with set parameters in the name (e.g. SEC-NUM-5_SEC-R-20) 
+## Anja Cramer, RGZM/WissIT, März 2019
 
 ## settings
 ### input folder
@@ -12,7 +10,7 @@
 ### cutting radius around the reference curve
 
 ## inputs
-### 3d mesh of Keilmesser in *.stl file format
+### 3d mesh of object in *.stl file format
 ### digitised reference curve in *.iges file format
 
 ## outputs 
@@ -126,7 +124,7 @@ for root, dirs, files in os.walk (input_pfad):
 							
 							# import reference curve							
 							for root2, dirs2, files2 in os.walk (root):	
-								# Regex --> Referenzkurve / reference edges
+								# Regex --> reference edges
 								pattern_ce_re = '^' + mesh[:-4] + '[_][A-Z]{1}[0-9]{1}_RE.igs$'
 								anz_ce_re = 0
 								for curve_ce_re in files2:
@@ -150,7 +148,7 @@ for root, dirs, files in os.walk (input_pfad):
 										sec_len = 	round ((((eges_lenght) / (input_sec_num-1))-0.0049),2)
 										print ("Distance of the cross sections: ", sec_len)
 															
-										# Sections erzeugen
+										# create sections
 										gom.script.selection3d.select_all ()
 				
 										MCAD_ELEMENT=gom.script.section.create_multisection_by_curve (
@@ -200,6 +198,3 @@ for root, dirs, files in os.walk (input_pfad):
 										gom.script.cad.delete_element (elements=[gom.app.project.inspection[curve_ce_re[:-4]]])
 myfile1.close()
 print ("fertsch :-)")
-
-
-
