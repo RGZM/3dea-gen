@@ -1,11 +1,11 @@
 cff-version: 1.1.0
 message: If you use this software, please cite it as below.
 authors:
-  - family-names: Thiery
-    given-names: Florian
-    orcid: https://orcid.org/0000-0002-3246-3531
-    affiliation: "Römisch-Germanisches Zentralmuseum"
-title: "re3dragon - REsearch REsource REgistry for DataDragons"
+  - family-names: Cramer
+    given-names: Anja
+	  orcid: http://orcid.org/0000-0002-5232-1944
+    affiliation: "RGZM"
+title: "3D-EdgeAngle: Python scripts for generating angles on defined edges on 3d models"
 version: v0.1
 doi: 10.5281/zenodo.5338740
 date-released: 2021-08-30
