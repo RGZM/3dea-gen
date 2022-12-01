@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+abstract: The scripts provided here are used to automatically create cross-sections on a 3D model with previously manually defined curve(s) (digitalisation of the edge, e.g. active edge of a lithic). Furthermore, with different approaches, the edge angles are automatically calculated on the cross-sections, which allows an analysis of the edge. The results are csv files for each profile containing the edge angle values of the different approaches.
+These scripts are part of the project 3D-EdgeAngle – A semi-automated 3D digital method to quantify stone tool edge angle and design. 
+authors:
+  - family-names: Cramer
+    given-names: Anja
+    affiliation: "RGZM"
+    orcid: http://orcid.org/0000-0002-5232-1944
+  - family-names: Heinz
+    given-names: Guido
+    affiliation: "RGZM"
+    orcid: http://orcid.org/0000-0003-2175-9908
+  - family-names: Schunk
+    given-names: Lisa
+    affiliation: "TraCEr"
+    orcid: http://orcid.org/0000-0002-2193-7340
+title: "3D-EdgeAngle: Python scripts for generating angles on defined edges on 3d models"
+version: 1.0
+keywords:
+  - "3D data"
+  - "3D  analysis"
+  - "edge angle"
+  - "Keilmesser"
+  - "standardised method"
+  - "3D-EdgeAngle"
+  - "Python scripts"
+  - "GOM Inspect Professional 2016"
+  - "3D data" Professional 2016"
+license: "CC-BY-4.0"
+repository-code: "http://github.com/rgzm/3deap-gen"
+type: software
