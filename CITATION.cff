@@ -17,19 +17,22 @@ authors:
     orcid: http://orcid.org/0000-0002-2193-7340
 title: "3D-EdgeAngle: Python scripts for generating angles on defined edges on 3d models"
 version: 1.0
-doi: 10.5281/zenodo.1234
-date-released: 2023
-url: "http://github.com/rgzm/3deap-gen"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.1234
+    description: Not yet published
+date-released: "2022-12-31"
 keywords:
-  - "3D data"
-  - "3D  analysis"
-  - "edge angle"
-  - "Keilmesser"
-  - "standardised method"
-  - "3D-EdgeAngle"
-  - "Python scripts"
-  - "GOM Inspect Professional 2016"
-  - "3D data" Professional 2016"
+  - 3D data
+  - 3D  analysis
+  - edge angle
+  - Keilmesser
+  - standardised method
+  - 3D-EdgeAngle
+  - Python scripts
+  - GOM Inspect Professional 2016
+  - 3D data" Professional 2016
 license: "CC-BY-4.0"
+url: "http://github.com/rgzm/3deap-gen"
 repository-code: "http://github.com/rgzm/3deap-gen"
 type: software
