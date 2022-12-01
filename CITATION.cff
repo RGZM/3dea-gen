@@ -5,6 +5,14 @@ authors:
     given-names: Anja
     orcid: http://orcid.org/0000-0002-5232-1944
     affiliation: "RGZM"
+  - family-names: Heinz
+    given-names: Guido
+    affiliation: "RGZM"
+    orcid: http://orcid.org/0000-0003-2175-9908
+  - family-names: Schunk
+    given-names: Lisa
+    affiliation: "TraCEr"
+    orcid: http://orcid.org/0000-0002-2193-7340
 title: "3D-EdgeAngle: Python scripts for generating angles on defined edges on 3d models"
 version: v0.1
 doi: 10.5281/zenodo.5338740
