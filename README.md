@@ -1,6 +1,9 @@
 # 3D-EdgeAngle Generator (3dea-gen)
 
-The scripts provided here are used to automatically create cross-sections on a 3D model and a previously manually defined curve (e.g. cutting edge). Furthermore, angles with different approaches are automatically calculated on the cross-sections, which allow an analysis of the sharpness of the edge. The results are csv files for each profile containing the angles of the different approaches.
+The scripts provided here are used to automatically create cross-sections on a 3D model with previously manually defined curve(s) (digitalisation of the edge, e.g. active edge of a lithic). Furthermore, with different approaches, the edge angles are automatically calculated on the cross-sections, which allows an analysis of the edge. The results are csv files for each profile containing the edge angle values of the different approaches.
+These scripts are part of the project 3D-EdgeAngle – A semi-automated 3D digital method to quantify stone tool edge angle and design. 
+
+Contributors: [![ORCID ID](http://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](http://orcid.org/0000-0002-5232-1944) Anja Cramer, [![ORCID ID](http://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](http://orcid.org/0000-0003-2175-9908) Guido Heinz, [![ORCID ID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](ttp://orcid.org/0000-0002-2193-7340) Lisa Schunk
 
 ## software
 
@@ -9,6 +12,8 @@ The scripts were created for the software **gom insprect pro 2016**. The executi
 ## data
 
 To use the scripts you need a 3d model in stl format and a digitized cutting edge on the 3d model in iges format.
+
+You can download a sample dataset with the results of the scripts here (not yet published): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4428498.svg)](https://doi.org/10.5281/zenodo.7360011).
 
 ## python scripts
 
@@ -29,7 +34,9 @@ Calculates cross-sections based on the reference curve and the 3D model. The dis
 
 **gom2016_3dea_3_sections_2d_projection.py**
 
-Projects the cross-sections into a 2D plane and saves profiles as *.iges and *.csv. The cross-sections can thus also be analysed outside the GOM software.
+Projects the cross-sections into a 2D plane and saves profiles as iges-file and csv-file. The cross-sections can thus also be analysed outside the GOM software.
 
 **gom2016_3dea_4_compute_edge_angles.py**
+
+Calculates angles on the cross sections in three different approaches. Angles are calculated at regular intervals from the digitized cutting edge. All calculated angles are saved in a csv file.
 
