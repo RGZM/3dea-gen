@@ -1,12 +1,10 @@
 ## -*- coding: utf-8 -*-
 
-## gom inspect professional 2016
-## Anja Cramer, RGZM/WissIT, März 2019
-
 ## Skript to reduce and smooth the curve who represent den edge
+## Anja Cramer, Guido Heinz RGZM/WissIT, März 2019
 
 ## settings
-### input folder
+### input folder, selected in GUI
 
 ## input
 ### digitised curve of the cutting edge in *.iges file format
@@ -131,6 +129,3 @@ for root, dirs, files in os.walk (input_pfad):
 
 myfile1.close()
 print ("fertsch :-)")
-
-
-
