@@ -17,6 +17,9 @@ authors:
     orcid: http://orcid.org/0000-0002-2193-7340
 title: "3D-EdgeAngle: Python scripts for generating angles on defined edges on 3d models"
 version: 1.0
+doi: 10.5281/zenodo.1234
+date-released: 2023
+url: "http://github.com/rgzm/3deap-gen"
 keywords:
   - "3D data"
   - "3D  analysis"
