@@ -3,7 +3,7 @@
 The scripts provided here are used to automatically create cross-sections on a 3D model with previously manually defined curve(s) (digitalisation of the edge, e.g. active edge of a lithic). Furthermore, with different approaches, the edge angles are automatically calculated on the cross-sections, which allows an analysis of the edge. The results are csv files for each profile containing the edge angle values of the different approaches.
 These scripts are part of the project 3D-EdgeAngle – A semi-automated 3D digital method to quantify stone tool edge angle and design. 
 
-Contributors: [![ORCID ID](http://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](http://orcid.org/0000-0002-5232-1944) Anja Cramer, [![ORCID ID](http://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](http://orcid.org/0000-0003-2175-9908) Guido Heinz, [![ORCID ID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](ttp://orcid.org/0000-0002-2193-7340) Lisa Schunk
+Contributors: [![ORCID ID](http://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](http://orcid.org/0000-0002-5232-1944) Anja Cramer, [![ORCID ID](http://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](http://orcid.org/0000-0003-2175-9908) Guido Heinz, [![ORCID ID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](http://orcid.org/0000-0002-2193-7340) Lisa Schunk
 
 ## software
 
