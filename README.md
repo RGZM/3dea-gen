@@ -13,7 +13,7 @@ The scripts were created for the software **GOM Insprect Professional 2016**. Th
 
 To use the scripts you need a 3d model in stl format and a digitized cutting edge on the 3d model in iges format.
 
-You can download a sample dataset with the results of the scripts here (not yet published): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4428498.svg)](https://doi.org/10.5281/zenodo.7360011).
+You can download a sample dataset with the results of the scripts here (not yet published): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4428498.svg)](https://doi.org/10.5281/zenodo.7360011)
 
 ## python scripts
 
