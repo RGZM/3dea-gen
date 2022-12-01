@@ -7,7 +7,7 @@ Contributors: [![ORCID ID](http://info.orcid.org/wp-content/uploads/2019/11/orci
 
 ## software
 
-The scripts were created for the software **gom insprect pro 2016**. The execution of the scripts must take place in this software.
+The scripts were created for the software **GOM Insprect Professional 2016**. The execution of the scripts must take place in this software.
 
 ## data
 
