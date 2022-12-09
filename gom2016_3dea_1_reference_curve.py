@@ -1,5 +1,7 @@
 ## -*- coding: utf-8 -*-
 
+## Script for using in the GOM Inspect Professional 2016 software
+
 ## Skript to reduce and smooth the curve who represent den edge
 ## Anja Cramer, Guido Heinz RGZM/WissIT, März 2019
 
