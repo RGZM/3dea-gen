@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# transforms the curves of the cross sections lying in the 3D coordinate system into a 2D system to simplify calculations on the curve
+## Script for using in the GOM Inspect Professional 2016 software
 
-## gom inspect professional 2016
+## transforms the curves of the cross sections lying in the 3D coordinate system into a 2D system to simplify calculations on the curve
 ## Anja Cramer, Guido Heinz RGZM/WissIT, März 2019
 
 ## settings
@@ -12,13 +12,12 @@
 ### cross sections created in script 2 in *.iges format
 ### the manually digitized tool edge in *.iges format
 
-
 ## outputs
 ### Views of the cross-sections 
 ### as *.png for quick visual control with many data sets, 
 ### as *.asc file with the point coordinates (x,y) for software-independent evaluation and 
 ### as *.iges file. 
-### The Gom Inspect project with the performed transformations is also saved as *.ginspect file.
+### The GOM-Inspect-Project with the performed transformations is also saved as *_local.ginspect file.
 
 
 import gom, os, re, datetime
@@ -48,7 +47,6 @@ RESULT=gom.script.sys.execute_user_defined_dialog (content='<dialog>' \
 '</dialog>')
 
 input_pfad = RESULT.file
-
 
 # Setting of folders and cross-sections to be aligned
 # here detailed selection of folders is made .... to reduce calculation time
@@ -83,7 +81,7 @@ for root, dirs, files in os.walk (input_pfad):
 					result = re.search(pattern_ce, curve_ce)
 					if result:
 						anz_ce = anz_ce +1
-						print ("2 - IGES Schneidekante : ", curve_ce)
+						print ("2 - IGES Cutting edge : ", curve_ce)
 
 						for root3, dirs3, files3 in os.walk (root):							
 							# Regex --> reference edge
@@ -93,7 +91,7 @@ for root, dirs, files in os.walk (input_pfad):
 								result = re.search(pattern_ce_re, curve_ce_re)
 								if result:
 									anz_ce_re = anz_ce_re +1
-									print ("3 - IGES Referenzkurve: ", curve_ce_re)
+									print ("3 - IGES Reference curve: ", curve_ce_re)
 									
 									# search cross sections
 									
@@ -120,9 +118,9 @@ for root, dirs, files in os.walk (input_pfad):
 															# data found and start processing
 															
 															# write log-file
-															myfile.write ("Bearbeitung von: " + curve_ce_re_sec +  "\n")
+															myfile.write ("processing: " + curve_ce_re_sec +  "\n")
 															now = datetime.datetime.now()
-															myfile.write ("Start: " + str(now.hour)+':'+str(now.minute)+" Uhr"+ "\n")
+															myfile.write ("Start: " + str(now.hour)+':'+str(now.minute)+" h"+ "\n")
 															
 															# create GOM project
 															gom.script.sys.close_project ()
@@ -310,9 +308,9 @@ for root, dirs, files in os.walk (input_pfad):
 															gom.script.sys.close_project ()
 															
 															now = datetime.datetime.now()
-															myfile.write ("End: " + str(now.hour)+':'+str(now.minute)+" Uhr"+ "\n")
+															myfile.write ("End: " + str(now.hour)+':'+str(now.minute)+" h"+ "\n")
 print ("fertsch :-)")
 
 now = datetime.datetime.now()
-myfile.write ("Script finished: " + str(now.day)+ "." + str(now.month) + "." + str(now.year) + " um " + str(now.hour)+ ":" +str(now.minute)+ " Uhr"+ "\n")
+myfile.write ("Script finished: " + str(now.day)+ "." + str(now.month) + "." + str(now.year) + " um " + str(now.hour)+ ":" +str(now.minute)+ " h"+ "\n")
 myfile.close()
