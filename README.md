@@ -11,7 +11,7 @@ The scripts were created for the software **GOM Insprect Professional 2016**. Th
 
 ## data
 
-To use the scripts you need a 3d model in stl format and a digitized cutting edge on the 3d model in iges format.
+To use the scripts you need a 3D model in stl-file and a digitized edge on the 3D model in iges-file.
 
 You can download a sample dataset with the results of the scripts here (not yet published): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7360011.svg)](https://doi.org/10.5281/zenodo.7360011)
 
@@ -21,7 +21,7 @@ For the naming of the data specifications have been made, which are defined in t
 
 **gom2016_3dea_1_reference_curve.py**
 
-Creates a thinned and smoothed reference curve from the curve of the digitised cutting edge. This is the basis for the cross profiles.
+Creates a thinned and smoothed reference curve from the curve of the digitised edge. This is the basis for the cross profiles.
 
 **gom2016_3dea_2_sections_SEC_NUM.py**
 
@@ -38,5 +38,5 @@ Projects the cross-sections into a 2D plane and saves profiles as iges-file and 
 
 **gom2016_3dea_4_compute_edge_angles.py**
 
-Calculates angles on the cross sections in three different approaches. Angles are calculated at regular intervals from the digitized cutting edge. All calculated angles are saved in a csv file.
+Calculates angles on the cross sections in three different approaches. Angles are calculated at regular intervals from the digitized cutting edge. All calculated angles are saved in a csv-file.
 
