@@ -1,5 +1,7 @@
 ## -*- coding: utf-8 -*-
 
+## Script for using in the GOM Inspect Professional 2016 software
+
 ## Script for generating cross-sections orthogonal to one or more reference curves (e.g. derived from a defined cutting edge) on an imported 3D model (e.g. Keilmesser)
 ## Several times applicable with different distances and radii, depending on the setting, unique folders are created with set parameters in the name (e.g. SEC-NUM-5_SEC-R-20) 
 ## Anja Cramer, Guido Heinz RGZM/WissIT, März 2019
@@ -11,12 +13,13 @@
 ### selected in GUI
 
 ## inputs
-### 3d mesh of Keilmesser in *.stl file format
+### 3D mesh of Keilmesser in *.stl file format
 ### digitised reference curve in *.iges file format
 
 ## outputs 
 ### generated cross-sections in single files in *.iges format (the settings like numbering of the cross-section and the position on the reference curve are indicated in the file names)
 ### control file for checking
+
 import gom, os, re
 
 RESULT=gom.script.sys.execute_user_defined_dialog (content='<dialog>' \
@@ -172,5 +175,3 @@ for root, dirs, files in os.walk (input_path):
 						gom.script.cad.delete_element (elements=[gom.app.project.inspection[curve_ce_re[:-4]]])
 
 print ("fertsch :-)")
-
-
