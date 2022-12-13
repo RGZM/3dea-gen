@@ -38,5 +38,5 @@ Projects the cross-sections into a 2D plane and saves profiles as iges-file and 
 
 **gom2016_3dea_4_compute_edge_angles.py**
 
-Calculates angles on the cross sections in three different approaches. Angles are calculated at regular intervals from the digitized cutting edge. All calculated angles are saved in a csv-file.
+Calculates angles on the cross sections in three different approaches. Angles are calculated at regular intervals from the digitized edge. All calculated angles are saved in a csv-file.
 
