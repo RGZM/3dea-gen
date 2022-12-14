@@ -7,11 +7,11 @@ Contributors: [![ORCID ID](http://info.orcid.org/wp-content/uploads/2019/11/orci
 
 ## software
 
-The scripts were created for the software **GOM Insprect Professional 2016**. The execution of the scripts must take place in this software. A detailed description of the methods used can be found here (not yet published): [![DOI](https://zenodo.org/badge/DOI/10.5281/xxx.svg)](https://doi.org/10.5281/zenodo.xxx)
+The scripts were created for the software **GOM Insprect Professional 2016**. he scripts must be executed within this software environment. A detailed description of the methods used can be found here (not yet published): [![DOI](https://zenodo.org/badge/DOI/10.5281/xxx.svg)](https://doi.org/10.5281/zenodo.xxx)
 
 ## data
 
-To use the scripts you need a 3D model in stl-file and a digitized edge on the 3D model in iges-file.
+To use the scripts you need a 3D model in stl-file format and a digitized edge on the 3D model in iges-file format.
 
 You can download a sample dataset with the results of the scripts here (not yet published): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7360011.svg)](https://doi.org/10.5281/zenodo.7360011)
 
@@ -30,7 +30,8 @@ The number of cross sections can be specified here. The distance between them is
 
 **gom2016_3dea_2_sections_SEC_DIST.py**
 
-Calculates cross-sections based on the reference curve and the 3D model. The distance between the cross profiles can be specified. The number of cross-sections is calculated automatically depending on the length of the reference curve.
+Calculates cross-sections based on the reference curve and the 3D model. 
+The distance between the cross profiles can be specified. The number of cross-sections is calculated automatically depending on the length of the reference curve.
 
 **gom2016_3dea_3_sections_2d_projection.py**
 
