@@ -15,7 +15,7 @@ authors:
     affiliation: "TraCEr"
     orcid: http://orcid.org/0000-0002-2193-7340
 title: "3D-EdgeAngle: Python scripts for processing"
-version: 0.1
+version: 1.0
 #identifiers:
 #  - type: doi
 #    value: 10.5281/zenodo.1234
