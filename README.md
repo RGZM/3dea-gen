@@ -7,7 +7,7 @@ Contributors: [![ORCID ID](http://info.orcid.org/wp-content/uploads/2019/11/orci
 
 ## software
 
-The scripts were created for the software **GOM Insprect Professional 2016**. he scripts must be executed within this software environment. A detailed description of the methods used can be found here (not yet published): [![DOI](https://zenodo.org/badge/DOI/10.5281/xxx.svg)](https://doi.org/10.5281/zenodo.xxx)
+The scripts were created for the software **GOM Insprect Professional 2016**. The scripts must be executed within this software environment. A detailed description of the methods used can be found here (not yet published): [![DOI](https://zenodo.org/badge/DOI/10.5281/xxx.svg)](https://doi.org/10.5281/zenodo.xxx)
 
 ## data
 
