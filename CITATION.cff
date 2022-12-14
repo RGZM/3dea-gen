@@ -14,7 +14,7 @@ authors:
     given-names: Lisa
     affiliation: "TraCEr"
     orcid: http://orcid.org/0000-0002-2193-7340
-title: "3D-EdgeAngle: Python scripts for generating angles on defined edges on 3d models"
+title: "3D-EdgeAngle: Python scripts for processing"
 version: 0.1
 #identifiers:
 #  - type: doi
